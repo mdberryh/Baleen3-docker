@@ -98,4 +98,4 @@ WORKDIR /baleen
 EXPOSE 6413
 
 # Always run Baleen
-ENTRYPOINT ["java", "-jar", "/opt/baleen/baleen.jar"]
+ENTRYPOINT ["java", "-jar", "/baleen/baleen.jar"]
